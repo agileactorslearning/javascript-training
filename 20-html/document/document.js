@@ -7,16 +7,16 @@
 // console.log("The window object:", window);
 
 // Document methods
-// const div1 = document.getElementById("div1");
-// console.log(div1);
+const div1 = document.getElementById("div1");
+console.log(div1);
 
-// const div2 = document.querySelector(".div2");
-// console.log(div2);
+const div2 = document.querySelector(".div2");
+console.log(div2);
 
-// const newDiv = document.createElement("div");
-// const newContent = document.createTextNode("Hi there!");
-// newDiv.appendChild(newContent);
-// document.body.insertBefore(newDiv, div1);
+const newDiv = document.createElement("div");
+const newContent = document.createTextNode("Hi there!");
+newDiv.appendChild(newContent);
+document.body.insertBefore(newDiv, div1);
 
 //2nd way
 // const div = document.createElement('div');
